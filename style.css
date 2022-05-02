@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+h1{
+    color: cyan;
+}
+p{color: aquamarine;}
+
+#show_sketch{
+    float: right;
+    font-size: 20px;
+}
+canvas{
+    border: 5px solid rgb(121, 121, 121);
+    border-radius: 25px;
+    animation-name: glowy;
+    animation-duration: 5s;
+    margin-top: 45px;
+    animation-iteration-count: infinite;
+}
+@keyframes glowy{
+    from{box-shadow: 1px 1px 35px turquoise;}
+    to{box-shadow: 1px 1px 35px white;}
+}
